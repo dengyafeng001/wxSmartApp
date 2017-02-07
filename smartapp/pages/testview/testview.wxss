@@ -1,0 +1,23 @@
+.flex-item {
+  flex: 2;
+  color: white;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  /*margin: auto auto;*/
+}
+.btndone {
+  background-color: #f60
+}
+.bc_red{
+  background-color: red
+}
+
+.bc_blue{
+  background-color: blue
+}
+
+.bc_green{
+  background-color: green
+}

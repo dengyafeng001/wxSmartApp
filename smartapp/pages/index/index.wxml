@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<template name="listcell">
+<view class="cellbg" data-data="{{item}}" bindtap="cellselect">
+<view class="celltitle">{{item.title}}</view>
+<view class="sepline"></view>
+</view>
+</template>
+
+<view wx:for="{{array}}">
+<template is="listcell" data="{{item}}"/>
+</view>
