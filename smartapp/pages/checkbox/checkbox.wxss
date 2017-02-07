@@ -1,0 +1,6 @@
+/* pages/checkbox/checkbox.wxss */
+
+checkbox{
+    margin: 20px;
+    display: block;
+}

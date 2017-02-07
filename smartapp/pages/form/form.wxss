@@ -1,0 +1,20 @@
+/* pages/form/form.wxss */
+
+.section{
+
+    padding: 10px;
+}
+input{
+    height: 40px;
+    padding: 0px 10px;
+    border: 1px solid gray;
+}
+
+.btn-area{
+    display: flex;
+
+}
+button{
+    flex: 1;
+    margin: 10px 10px;
+}

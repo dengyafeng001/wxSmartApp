@@ -1,0 +1,11 @@
+/* pages/button/button.wxss */
+button{
+    margin: 20px 5px;
+}
+.button-hover{
+
+    background-color: red;
+}
+.other-button-hover{
+    background-color: blue;
+}

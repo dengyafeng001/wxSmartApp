@@ -1,9 +1,14 @@
 {
   "pages":[
+    
     "pages/index/index",
     "pages/testview/testview",
     "pages/testscroll/testscroll",
-    "pages/swiper/swiper"
+    "pages/swiper/swiper",
+    "pages/progress/progress",
+    "pages/button/button",
+    "pages/checkbox/checkbox",
+    "pages/form/form"
   ],
   "window":{
     "backgroundTextStyle":"light",

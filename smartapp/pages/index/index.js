@@ -9,7 +9,13 @@ Page({
       {title:"scroll的使用",
       path:"testscroll"},
       {title:"swiper的使用",
-      path:"swiper"}]
+      path:"swiper"},
+      {title:"progress的使用",
+      path:"progress"},
+      {title:"button的使用",
+      path:"button"},
+      {title:"form的使用",
+      path:"form"}]
   },
   //事件处理函数
   cellselect: function(e) {
