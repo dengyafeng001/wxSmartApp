@@ -1,1 +1,28 @@
-<view>这是scroll</view>
+<view class="section">
+<view class="section_title">垂直滚动</view>
+<!--垂直滚动，这里必须设置高度-->
+<scroll-view scroll-y="true" style="height:200px;" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+
+<view id="green" class="scroll-view-item bc_green"></view>
+    <view id="red"  class="scroll-view-item bc_red"></view>
+    <view id="yellow" class="scroll-view-item bc_yellow"></view>
+    <view id="blue" class="scroll-view-item bc_blue"></view>
+</scroll-view>
+
+<view class="btn-area">
+<button size="default" bindtap="tap">点我滚动到某个色块</button>
+<button size="default" bindtap="tapMove">点我滚动</button>
+</view>
+<!--水平滚动，父视图必须设置white-space:nowrap，子视图必须display:inline-block-->
+<view class="section section_gap">
+<view>水平滚动</view>
+<scroll-view class="scroll-view-H" scroll-x="true">
+<view id="green" class="scroll-view-item_H bc_green"></view>
+    <view id="red"  class="scroll-view-item_H bc_red"></view>
+    <view id="yellow" class="scroll-view-item_H bc_yellow"></view>
+    <view id="blue" class="scroll-view-item_H bc_blue"></view>
+</scroll-view>
+
+</view>
+
+</view>

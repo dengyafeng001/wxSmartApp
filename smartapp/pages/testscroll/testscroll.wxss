@@ -1,0 +1,32 @@
+.scroll-view-item{
+
+    flex: 1;
+    height: 100px;
+}
+
+.bc_green{
+    background-color: green;
+}
+.bc_red{
+    background-color: red;
+}
+.bc_yellow{
+    background-color: yellow;
+}
+.bc_blue{
+    background-color: blue;
+}
+button{
+    width: 90%;
+    margin: 10px;
+    height: 40px;
+}
+.scroll-view-H{
+    white-space: nowrap;
+    display: flex;
+}
+.scroll-view-item_H{
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+}

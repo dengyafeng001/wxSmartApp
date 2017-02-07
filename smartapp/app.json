@@ -2,7 +2,8 @@
   "pages":[
     "pages/index/index",
     "pages/testview/testview",
-    "pages/testscroll/testscroll"
+    "pages/testscroll/testscroll",
+    "pages/swiper/swiper"
   ],
   "window":{
     "backgroundTextStyle":"light",

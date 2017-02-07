@@ -1,0 +1,16 @@
+
+.cellbg{
+  background-color: #f5f5f5;
+}
+
+.celltitle{
+  flex: 1;
+  height: 44px;
+  line-height: 44px;
+  margin-left: 15px;
+}
+
+.sepline{
+  background-color: #dddddd;
+  height: 1px;
+}

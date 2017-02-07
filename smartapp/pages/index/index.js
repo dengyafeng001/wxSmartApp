@@ -7,7 +7,9 @@ Page({
       {title:"view的使用",
       path:"testview"},
       {title:"scroll的使用",
-      path:"testscroll"}]
+      path:"testscroll"},
+      {title:"swiper的使用",
+      path:"swiper"}]
   },
   //事件处理函数
   cellselect: function(e) {
@@ -17,14 +19,6 @@ Page({
     })
   },
   onLoad: function () {
-    console.log('onLoad')
-    var that = this
-    //调用应用实例的方法获取全局数据
-    app.getUserInfo(function(userInfo){
-      //更新数据
-      that.setData({
-        userInfo:userInfo
-      })
-    })
+    
   }
 })

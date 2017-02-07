@@ -1,23 +1,27 @@
 .flex-item {
-  flex: 2;
+  flex: 1;
   color: white;
   width: 100px;
   height: 100px;
   text-align: center;
   line-height: 100px;
-  /*margin: auto auto;*/
+  
 }
 .btndone {
-  background-color: #f60
+  
+  border: 2px solid black;
 }
 .bc_red{
-  background-color: red
+  background-color: red;
+  margin: 2px;
 }
 
 .bc_blue{
-  background-color: blue
+  background-color: blue;
+  margin: 2px;
 }
 
 .bc_green{
-  background-color: green
+  background-color: green;
+  margin: 2px;
 }
